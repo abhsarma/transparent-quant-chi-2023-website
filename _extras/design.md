@@ -35,7 +35,7 @@ The Builder tool takes the following steps:
     3. Apply any customisation to episodes
 
 All of these steps can be reproduced manually.
-Care should be taken when implementing episodes from different sources that they do not have conflicts over files in shared folders (e.g. that you don't have two different episodes trying to create `fig/example01.png`). Make sure to update references to these resources as well as the names of the resources themselves!
+Care should be taken when implementing episodes from differe/nt sources that they do not have conflicts over files in shared folders (e.g. that you don't have two different episodes trying to create `fig/example01.png`). Make sure to update references to these resources as well as the names of the resources themselves!
 
 Some additional files can be customised, including instructor notes and the workshop introduction (which appears below the banner on the workshop homepage).
 

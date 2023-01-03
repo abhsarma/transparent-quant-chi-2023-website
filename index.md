@@ -5,6 +5,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # https://carpentries.github.io/workshop-template/customization/index.html
 ---
 
+
 {% comment %}
 Each of the sections below can be found in an individual markdown file.
 This makes it easier for people to edit the contents in the UKRN Workshop Builder.
@@ -33,7 +34,7 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% endif %}
 
 
-<h2 id="general">General Information</h2>
+<h2 class='section-info' id="general">General Information</h2>
 
 {% if site.topic == "open-data" %}
 {% include intro/topic-intros/open-data.md %}
@@ -134,10 +135,10 @@ Display the contact email address set in the configuration file.
 
 <p id="contact">
   <strong>Contact:</strong>
-  <a href='mailto:chat@ifi.uzh.ch?subject=[CHI Course]'>chat@ifi.uzh.ch</a>
+  <a class='contact-info' href='mailto:chat@ifi.uzh.ch?subject=[CHI Course]'>chat@ifi.uzh.ch</a>
 </p>
 
-<hr/>
+  <!-- <hr/> -->
 
 <!-- {% comment %}
 SCHEDULE
@@ -148,16 +149,18 @@ The schedule is automatically generated from the lessons in `./_episodes` and `.
 {% endcomment %}
 
 {% comment %}
-<h2 id="schedule">Schedule</h2> 
+<h2 class='section-info' id="schedule">Schedule</h2> 
 
 {% include schedule.html %}
 
 📅 Calendar entries for these dates are available in the <strong>General Information</strong> section above.
 <hr/>
 
-<h2 id="registration">Registration</h2> 
+<h2 class='section-info' id="registration">Registration</h2> 
 
 {% include registration.md %}
 <hr/>
 {% endcomment %} -->
+
+
 

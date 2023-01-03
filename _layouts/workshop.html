@@ -59,12 +59,25 @@ online workshops.
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
   <title>{{ site.title }} Workshop</title>
+
+  <style>
+    .flex-container {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+  </style>
 </head>
 <body>
 <div class="container">
   {% include navbar.html %}
   {% include workshop_ad.html %}
-  {{ content }}
+  <div class="flex-container">
+    <div class="row">
+      <div class='col-md-10'>
+        {{ content }}
+      </div>
+    </div>
+  </div>
   {% include workshop_footer.html %}
 </div>
 {% include javascript.html %}
