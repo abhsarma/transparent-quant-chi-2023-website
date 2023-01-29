@@ -1,5 +1,5 @@
 ---
-title: Planning, analyzing, and sharing quantitative research
+title: Planning, analyzing, and sharing quantitative research (online)
 teaching: null
 exercises: null
 duration: 75

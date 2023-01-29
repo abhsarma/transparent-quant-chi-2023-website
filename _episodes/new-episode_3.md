@@ -1,5 +1,5 @@
 ---
-title: Introduction to Transparency-oriented Visualizations
+title: Introduction to Transparency-oriented Visualizations (online)
 teaching: null
 exercises: null
 duration: 75
