@@ -1,6 +1,6 @@
 Course fee: $238 + [CHI registration fee](https://cvent.me/YbG5VD)
 
-If you are not yet registered for CHI:
+<!-- If you are not yet registered for CHI: -->
 1. Go to [CHI 2023 registration page](https://cvent.me/YbG5VD)
 2. Scroll to the bottom of the page and select the Member or Non-Member button to begin your registration. 
 3. Fill in all of the required information needed for registration to attend CHI 2023.
