@@ -97,6 +97,8 @@ The schedule is automatically generated from the lessons in `./_episodes` and `.
 ### Can I participate this course if I will only attend CHI online?
 Yes. The first three sessions are online, and the last sessions is hybrid. See the information on the page of the last session above for the hybrid arrangement.
 
+### Do I need to know any programming language?
+Some experience in [R](http://r-project.org) will be helpful but not strictly required. We will use R only for examples and will provide code for you to comment/uncomment to explore several scenarios.
 
 
 <p id="contact">
