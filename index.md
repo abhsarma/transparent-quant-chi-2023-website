@@ -65,7 +65,6 @@ Show the workshop's schedule.
 The schedule is automatically generated from the lessons in `./_episodes` and `./episodes_rmd`, which are in turn produced by the generator tool.
 {% endcomment %}
 
-{% comment %}
 <h2 class='section-info' id="schedule">Schedule</h2> 
 
 {% include schedule.html %}
@@ -77,7 +76,6 @@ The schedule is automatically generated from the lessons in `./_episodes` and `.
 
 {% include registration.md %}
 <hr/>
-{% endcomment %}
 
 
 <h2 class='section-info' id="instructors">About instructors</h2> 
