@@ -7,7 +7,7 @@
 {% assign d = unique_days | size | minus: 1 %}
 {% assign max_day = days[d] %}
 {% assign index = 0 %}
-{% assign course_dates = "0,April 18,April 20,April 22,April 23–28,April 29" | split: ',' %}
+{% assign course_dates = "0,April 12,April 24,April 17,April 24" | split: ',' %}
 
 {% for day in (min_day..max_day) %}
 {% comment %}Only display if we're an actual day!{% endcomment %}
@@ -44,9 +44,9 @@
             {% comment %}Increment the timer{% endcomment %}
             <tr class="{% if ep.is-break %}break-episode{% endif %}">               <!-- Every event goes on a new row   -->
                 <td>
-                    {% if day != 4 %}
-                    <a href="https://dateful.com/convert/central-louisiana?t=11">11:00</a> – 
-                    <a href="https://dateful.com/convert/central-louisiana?t=1215">12:15</a>
+                    {% if day < 4 %}
+                    <a href="https://dateful.com/convert/germany?t=18&d=2023-04-{{ course_dates[day] }}">18:00</a> – 
+                    <a href="https://dateful.com/convert/germany?t=1915&d=2023-04-{{ course_dates[day] }}">19:15</a>
                     (Central)
                     {% else %}
                     Flexible

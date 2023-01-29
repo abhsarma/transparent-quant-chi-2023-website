@@ -5,35 +5,6 @@ layout: workshop      # DON'T CHANGE THIS.
 # https://carpentries.github.io/workshop-template/customization/index.html
 ---
 
-
-{% comment %}
-Each of the sections below can be found in an individual markdown file.
-This makes it easier for people to edit the contents in the UKRN Workshop Builder.
-{% endcomment %}
-
-{% comment %}
-HEADER
-
-Edit the values in the block above to be appropriate for your workshop.
-If the value is not 'true', 'false', 'null', or a number, please use
-double quotation marks around the value, unless specified otherwise.
-And run 'make workshop-check' *before* committing to make sure that changes are good.
-{% endcomment %}
-
-{% if site.eventbrite %}
-**Some adblockers block the registration window. If you do not see the
-  registration box below, please check your adblocker settings.**
-
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{site.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
-{% endif %}
-
-
 <h2 class='section-info' id="general">General Information</h2>
 
 {% if site.topic == "open-data" %}
@@ -63,6 +34,7 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
     9:00–10:15 (Pacific) = 11:00–12:15 (Central) = 12:00–13:15 (Eastern) = 18:00–19:15 (Europe)
 </p>
 <strong>On-site/hybrid sessions dates and time:</strong> Monday, April 24 late-morning session (exact time and location will be announced in the <a href="https://chi2023.acm.org/program/">CHI program</a>)
+
 <!-- <p>
   <strong>Calendar entries:</strong>
   <ul>
@@ -115,10 +87,10 @@ The schedule is automatically generated from the lessons in `./_episodes` and `.
 
 <h2 class='section-info' id="faq">Frequently Asked Questions</h2> 
 
-<h3>Is there any scholarships?</h3>
-<a href="https://sigchi.submittable.com/submit/165150/gary-marsden-travel-awards">Gary Marsden Travel Awards</a> (Deadline February 9th, 11:59pm AoE). This fund prioritizes first-time attendees and presenters. You do not need to have a paper accepted to CHI to apply for this fund.
+### Is there any scholarships?
+[Gary Marsden Travel Awards](https://sigchi.submittable.com/submit/165150/gary-marsden-travel-awards) (Deadline February 9th, 11:59pm AoE). This fund prioritizes first-time attendees and presenters. You do not need to have a paper accepted to CHI to apply for this fund.
 
-<h3>Can I participate this course if I will only attend CHI online?</h3>
+### Can I participate this course if I will only attend CHI online?
 Yes. The first three sessions are online, and the last sessions is hybrid. See the information on the page of the last session above for the hybrid arrangement.
 
 
