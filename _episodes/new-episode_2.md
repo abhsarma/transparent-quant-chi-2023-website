@@ -1,5 +1,5 @@
 ---
-title: Introduction to Transparent Bayesian Data Analysis
+title: Introduction to Transparent Bayesian Data Analysis (online)
 teaching: null
 exercises: null
 duration: 75

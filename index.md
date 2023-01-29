@@ -5,35 +5,6 @@ layout: workshop      # DON'T CHANGE THIS.
 # https://carpentries.github.io/workshop-template/customization/index.html
 ---
 
-
-{% comment %}
-Each of the sections below can be found in an individual markdown file.
-This makes it easier for people to edit the contents in the UKRN Workshop Builder.
-{% endcomment %}
-
-{% comment %}
-HEADER
-
-Edit the values in the block above to be appropriate for your workshop.
-If the value is not 'true', 'false', 'null', or a number, please use
-double quotation marks around the value, unless specified otherwise.
-And run 'make workshop-check' *before* committing to make sure that changes are good.
-{% endcomment %}
-
-{% if site.eventbrite %}
-**Some adblockers block the registration window. If you do not see the
-  registration box below, please check your adblocker settings.**
-
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{site.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
-{% endif %}
-
-
 <h2 class='section-info' id="general">General Information</h2>
 
 {% if site.topic == "open-data" %}
@@ -50,65 +21,21 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% include intro/topic-intros/unknown-topic.md %}
 {% endif %}
 
-<!-- {% comment %}
-LOCATION
 
-This block displays the address and links to maps showing directions
-if the latitude and longitude of the workshop have been set.  You
-can use https://itouchmap.com/latlong.html to find the lat/long of an
-address.
-{% endcomment %}
 
-{% comment %}
-{% assign begin_address = site.address | slice: 0, 4 | downcase  %}
-{% if site.address == "online" %}
-{% assign online = "true_private" %}
-{% elsif begin_address contains "http" %}
-{% assign online = "true_public" %}
-{% else %}
-{% assign online = "false" %}
-{% endif %}
-{% if site.latitude and site.longitude and online == "false" %}
-<p id="where">
-  <strong>Where:</strong>
-  {{site.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{site.latitude}}&mlon={{site.longitude}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{site.latitude}},{{site.longitude}}">Google Maps</a>.
-</p>
-{% elsif online == "true_public" %}
-<p id="where">
-  <strong>Where:</strong>
-  online at <a href="{{site.address}}">{{site.address}}</a>.
-  If you need a password or other information to access the training,
-  the instructor will pass it on to you before the workshop.
-</p>
-{% elsif online == "true_private" %}
-<p id="where">
-  <strong>Where:</strong> This training will take place online.
-  The instructors will provide you with the information you will need to connect to this meeting.
-</p>
-{% endif %}
-{% endcomment %}
-
-{% comment %}
-DATE
-
-This block displays the date and links to Google Calendar.
-{% endcomment %}
-
-{% comment %}
-{% if site.start_date %}
 <p id="when">
-  <strong>Dates:</strong>
-  18, 20, 22, and 29 April 2022
+  <strong>Online sessions dates:</strong>
+  Wednesday, April 12
+  Friday, April 14
+  Monday, April 17
 </p>
 <p>
-  <strong>Time:</strong>
+  <strong>Online sessions time:</strong>
     9:00–10:15 (Pacific) = 11:00–12:15 (Central) = 12:00–13:15 (Eastern) = 18:00–19:15 (Europe)
 </p>
-<p>
+<strong>On-site/hybrid sessions dates and time:</strong> Monday, April 24 late-morning session (exact time and location will be announced in the <a href="https://chi2023.acm.org/program/">CHI program</a>)
+
+<!-- <p>
   <strong>Calendar entries:</strong>
   <ul>
     <li>
@@ -123,24 +50,14 @@ This block displays the date and links to Google Calendar.
       <small> (Note: World Time Buddy supports 30-minute chunks, so the calendar entries download from there will be 15 minutes longer than the actual time.)</small>
     </li>
   </ul>
-</p>
-{% endif %}
-{% endcomment %} -->
+</p> -->
 
-<!-- {% comment %}
-CONTACT EMAIL ADDRESS
 
-Display the contact email address set in the configuration file.
-{% endcomment %} -->
 
-<p id="contact">
-  <strong>Contact:</strong>
-  <a class='contact-info' href='mailto:chat@ifi.uzh.ch?subject=[CHI Course]'>chat@ifi.uzh.ch</a>
-</p>
 
-  <!-- <hr/> -->
+<hr/>
 
-<!-- {% comment %}
+{% comment %}
 SCHEDULE
 
 Show the workshop's schedule.
@@ -148,19 +65,43 @@ Show the workshop's schedule.
 The schedule is automatically generated from the lessons in `./_episodes` and `./episodes_rmd`, which are in turn produced by the generator tool.
 {% endcomment %}
 
-{% comment %}
 <h2 class='section-info' id="schedule">Schedule</h2> 
 
 {% include schedule.html %}
 
-📅 Calendar entries for these dates are available in the <strong>General Information</strong> section above.
+<!-- 📅 Calendar entries for these dates are available in the <strong>General Information</strong> section above. -->
 <hr/>
 
 <h2 class='section-info' id="registration">Registration</h2> 
 
 {% include registration.md %}
 <hr/>
-{% endcomment %} -->
 
 
+<h2 class='section-info' id="instructors">About instructors</h2> 
 
+[__Chat Wacharamanotham__](https://chatchavan.github.io) is a lecturer at Swansea University and a mandated instructor at the University of Zurich. The focus of his work is on understanding and developing tools for planning, reporting, reading, and sharing quantitative research. He is also a co-organizer of the Transparent Statistics in HumanComputer Interaction group and the Dagstuhl Seminar on Transparent Quantitative Research as a User Interface Problem. He has seven years of experience teaching a research method course for graduate students. 
+
+[__Fumeng Yang__](http://www.fmyang.com/) is a postdoctoral fellow at Northwestern University. Her recent research focuses on uncertainty visualizations for the general public and user modeling through statistical and machine learning models. She served as a Student Volunteers chair for IEEE VIS and co-instructed the precedent series of the proposed course.
+
+[__Xiaoying Pu__](xiaoyingpu.github.io) is a postdoctoral researcher at the University of California, Merced. In her work, she takes a human-centered approach to help data workers communicate uncertainty and data analyses. She has organized a CHI 2021 SIG on visualization grammars and studied the open science practice of preregistration.
+
+[__Abhraneel Sarma__](http://abhsarma.github.io/) is a Ph.D. candidate at Northwestern University. His research interests include studying how people make decisions using visualizations, and how visualizations can be used for improving statistical analysis or reporting statistical results. In addition, he has studied how users implement certain aspects of Bayesian models and has developed tools for conducting multiverse analysis which is an approach for more transparent statistical research.
+
+
+<h2 class='section-info' id="faq">Frequently Asked Questions</h2> 
+
+### Is there any scholarships?
+[__Gary Marsden Travel Awards__](https://sigchi.submittable.com/submit/165150/gary-marsden-travel-awards) (Deadline February 9th, 11:59pm AoE). This fund prioritizes first-time attendees and presenters. You do not need to have a paper accepted to CHI to apply for this fund.
+
+### Can I participate this course if I will only attend CHI online?
+Yes. The first three sessions are online, and the last sessions is hybrid. See the information on the page of the last session above for the hybrid arrangement.
+
+### Do I need to know any programming language?
+Some experience in [R](http://r-project.org) will be helpful but not strictly required. We will use R only for examples and will provide code for you to comment/uncomment to explore several scenarios.
+
+
+<p id="contact">
+  <strong>Contact:</strong>
+  <a class='contact-info' href='mailto:chat@acm.org?subject=[CHI Course]'>chat@acm.org</a>
+</p>
