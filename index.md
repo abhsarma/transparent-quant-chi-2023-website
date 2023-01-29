@@ -54,12 +54,8 @@ layout: workshop      # DON'T CHANGE THIS.
 
 
 
-<p id="contact">
-  <strong>Contact:</strong>
-  <a class='contact-info' href='mailto:chat@acm.org?subject=[CHI Course]'>chat@acm.org</a>
-</p>
 
-  <!-- <hr/> -->
+<hr/>
 
 {% comment %}
 SCHEDULE
@@ -86,23 +82,26 @@ The schedule is automatically generated from the lessons in `./_episodes` and `.
 
 <h2 class='section-info' id="instructors">About instructors</h2> 
 
-[Chat Wacharamanotham](https://chatchavan.github.io) is a lecturer at Swansea University and a mandated instructor at the University of Zurich. The focus of his work is on understanding and developing tools for planning, reporting, reading, and sharing quantitative research. He is also a co-organizer of the Transparent Statistics in HumanComputer Interaction group and the Dagstuhl Seminar on Transparent Quantitative Research as a User Interface Problem. He has seven years of experience teaching a research method course for graduate students. 
+[__Chat Wacharamanotham__](https://chatchavan.github.io) is a lecturer at Swansea University and a mandated instructor at the University of Zurich. The focus of his work is on understanding and developing tools for planning, reporting, reading, and sharing quantitative research. He is also a co-organizer of the Transparent Statistics in HumanComputer Interaction group and the Dagstuhl Seminar on Transparent Quantitative Research as a User Interface Problem. He has seven years of experience teaching a research method course for graduate students. 
 
-[Fumeng Yang](http://www.fmyang.com/) is a postdoctoral fellow at Northwestern University. Her recent research focuses on uncertainty visualizations for the general public and user modeling through statistical and machine learning models. She served as a Student Volunteers chair for IEEE VIS and co-instructed the precedent series of the proposed course.
+[__Fumeng Yang__](http://www.fmyang.com/) is a postdoctoral fellow at Northwestern University. Her recent research focuses on uncertainty visualizations for the general public and user modeling through statistical and machine learning models. She served as a Student Volunteers chair for IEEE VIS and co-instructed the precedent series of the proposed course.
 
-[Xiaoying Pu](xiaoyingpu.github.io) is a postdoctoral researcher at the University of California, Merced. In her work, she takes a human-centered approach to help data workers communicate uncertainty and data analyses. She has organized a CHI 2021 SIG on visualization grammars and studied the open science practice of preregistration.
+[__Xiaoying Pu__](xiaoyingpu.github.io) is a postdoctoral researcher at the University of California, Merced. In her work, she takes a human-centered approach to help data workers communicate uncertainty and data analyses. She has organized a CHI 2021 SIG on visualization grammars and studied the open science practice of preregistration.
 
-[Abhraneel Sarma](http://abhsarma.github.io/) is a Ph.D. candidate at Northwestern University. His research interests include studying how people make decisions using visualizations, and how visualizations can be used for improving statistical analysis or reporting statistical results. In addition, he has studied how users implement certain aspects of Bayesian models and has developed tools for conducting multiverse analysis which is an approach for more transparent statistical research.
+[__Abhraneel Sarma__](http://abhsarma.github.io/) is a Ph.D. candidate at Northwestern University. His research interests include studying how people make decisions using visualizations, and how visualizations can be used for improving statistical analysis or reporting statistical results. In addition, he has studied how users implement certain aspects of Bayesian models and has developed tools for conducting multiverse analysis which is an approach for more transparent statistical research.
 
 
 <h2 class='section-info' id="faq">Frequently Asked Questions</h2> 
 
 ### Is there any scholarships?
-[Gary Marsden Travel Awards](https://sigchi.submittable.com/submit/165150/gary-marsden-travel-awards) (Deadline February 9th, 11:59pm AoE). This fund prioritizes first-time attendees and presenters. You do not need to have a paper accepted to CHI to apply for this fund.
+[__Gary Marsden Travel Awards__](https://sigchi.submittable.com/submit/165150/gary-marsden-travel-awards) (Deadline February 9th, 11:59pm AoE). This fund prioritizes first-time attendees and presenters. You do not need to have a paper accepted to CHI to apply for this fund.
 
 ### Can I participate this course if I will only attend CHI online?
 Yes. The first three sessions are online, and the last sessions is hybrid. See the information on the page of the last session above for the hybrid arrangement.
 
 
 
-
+<p id="contact">
+  <strong>Contact:</strong>
+  <a class='contact-info' href='mailto:chat@acm.org?subject=[CHI Course]'>chat@acm.org</a>
+</p>

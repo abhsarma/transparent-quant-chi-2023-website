@@ -14,7 +14,7 @@ instructor_emails:
   - abhraneel@u.northwestern.edu
 helpers: []
 start_times:
-  - 11|00
+  - 18|00
 setup_files: []
 language: en
 venue: A CHI 2023 course
@@ -22,7 +22,7 @@ address: online an at CHI 2023 in Hamburg
 country: null
 latitude: null
 longitude: null
-start_date: 2022-04-17T22:00:00.000Z
+start_date: 2023-04-12T22:00:00.000Z
 # collaborative_notes: "https://padlet.com/chatwacharamanotham/6lu2h1u5lr2z85cd"
 eventbrite: null
 optional_intro_sections:
