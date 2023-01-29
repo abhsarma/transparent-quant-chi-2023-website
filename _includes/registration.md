@@ -1,4 +1,4 @@
-Course fee: $100 (+ CHI registration fee—physical or virtual)
+Course fee: $238 + [CHI registration fee](https://cvent.me/YbG5VD)
 
 If you are not yet registered for CHI:
 1. Go to [CHI 2023 registration page](https://cvent.me/YbG5VD)
