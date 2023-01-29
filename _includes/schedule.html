@@ -44,13 +44,9 @@
             {% comment %}Increment the timer{% endcomment %}
             <tr class="{% if ep.is-break %}break-episode{% endif %}">               <!-- Every event goes on a new row   -->
                 <td>
-                    {% if day < 4 %}
-                    <a href="https://dateful.com/convert/germany?t=18&d=2023-04-{{ course_dates[day] | strip }}">18:00</a> – 
-                    <a href="https://dateful.com/convert/germany?t=1915&d=2023-04-{{ course_dates[day]  | strip }}">19:15</a>
-                    (Central)
-                    {% else %}
-                    Flexible
-                    {% endif %}
+                    <a href="https://dateful.com/convert/germany?t=18&d=2023-04-{{ course_dates[day] | split : ' ' | last }}">18:00</a> – 
+                    <a href="https://dateful.com/convert/germany?t=1915&d=2023-04-{{ course_dates[day]  | split : ' ' | last }}">19:15</a>
+                    (Germany)
                 </td>        <!-- time    -->
                 <td>
                     {% if ep.summary %}
