@@ -5,7 +5,40 @@ layout: base
 <article>
 {% include episode_title.html %}
 {% include episode_overview.html %}
+<div class="flex-container">
+<div class="row">
+<div class="col-md-10">
 {{content}}
+</div>
+</div>
+</div>
 {% include episode_keypoints.html %}
 </article>
-{% include episode_navbar.html episode_navbar_title=false %}
+<!-- {% include episode_navbar.html episode_navbar_title=false %} -->
+
+<style>
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Poppins', sans-serif;
+		font-weight: 700;
+		color: #4f4f4f;
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 1.4em;
+		color: #4f4f4f;
+	}
+
+	h3.maintitle a {
+		color: #666666;
+	}
+
+	h3.maintitle a:hover {
+		text-decoration: none;
+	}
+
+	.flex-container {
+		padding-left: 60px;
+		padding-right: 60px;
+    }
+</style>

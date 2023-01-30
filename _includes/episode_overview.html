@@ -53,47 +53,84 @@ from the parameters passed in.
 <blockquote class="objectives">
     <h2>Overview</h2>
     {% if eq > 0 or eo > 0 or teaching_time or exercise_time or duration %}
-    <div class="row">
-        {% if teaching_time or exercise_time or duration %}
-        <div class="col-md-3">
-            {% if teaching_time %}
-            <strong>Teaching:</strong> {{ teaching_time }} min
-            {% endif %}
-            {% if teaching_time and (exercise_time or duration) %}
-            <br/>
-            {% endif %}
-            {% if exercise_time %}
-            <strong>Exercises:</strong> {{ exercise_time }} min
-            {% endif %}
-            {% if teaching_time and exercise_time and duration %}
-            <br/>
-            {% endif %}
-            {% if duration %}
-            <strong>Duration:</strong> {{ duration }} min
-            {% endif %}
+    <div class="flex-container">
+        <div class="row">
+            <div class="col-md-10">
+                {% if teaching_time or exercise_time or duration %}
+                    {% if teaching_time %}
+                    <strong>Teaching:</strong> {{ teaching_time }} min
+                    {% endif %}
+                    {% if teaching_time and (exercise_time or duration) %}
+                    <br/>
+                    {% endif %}
+                    {% if exercise_time %}
+                    <strong>Exercises:</strong> {{ exercise_time }} min
+                    {% endif %}
+                    {% if teaching_time and exercise_time and duration %}
+                    <br/>
+                    {% endif %}
+                    {% if duration %}
+                    <h3 class="lesson-overview"><strong>Duration:</strong> {{ duration }} min</h3>
+                    {% endif %}
+                {% endif %}
+            </div>
         </div>
-        {% endif %}
-        {% if eq > 0 or eo > 0 %}
-        <div class="col-md-9">
-            {% if eq > 0 %}
-            <strong>Questions</strong>
-            <ul>
-                {% for question in episode_questions %}
-                <li>{{ question|markdownify }}</li>
-                {% endfor %}
-            </ul>
-            {% endif %}
-            {% if eo > 0 %}
-            <strong>Objectives</strong>
-            <ul>
-                {% for objective in episode_objectives %}
-                <li>{{ objective|markdownify }}</li>
-                {% endfor %}
-            </ul>
-            {% endif %}
+        <div class="row">
+            <div class="col-md-10">
+                {% if eq > 0 or eo > 0 %}
+                    {% if eq > 0 %}
+                    <h3 class="lesson-overview"><strong>Questions</strong></h3>
+                    <ul>
+                        {% for question in episode_questions %}
+                        <li>{{ question|markdownify }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                    {% if eo > 0 %}
+                    <strong>Objectives</strong>
+                    <ul>
+                        {% for objective in episode_objectives %}
+                        <li>{{ objective|markdownify }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                {% endif %}
+            </div>
         </div>
-        {% endif %}
     </div>
     {% endif %}
 </blockquote>
 {% endif %}
+
+<style>
+    h3.lesson-overview {
+        margin: 8px 0px;
+    }
+
+    .objectives {
+        border-radius: 6px !important;
+        border-color: #f8f8f8 !important;
+        background-color: #f8f8f8;
+        padding-bottom: 24px;
+        margin: 15px 0px 40px 0px;
+        padding: 0px 0px 24px 0px;
+    }
+
+    .objectives h2 {
+        color: #ffffff;
+        background: #4574bf !important;
+        border-color: #4574bf !important;
+        font-size: 30px !important;
+        padding-left: 65px;
+        border-radius: 4px 4px 0px 0px;
+    }
+
+    .objectives h2:before {
+        display: none !important;
+    }
+
+    .flex-container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+</style>
