@@ -49,7 +49,10 @@
                     <a href="https://dateful.com/convert/germany?t=1915&d=2023-04-{{ course_dates[day]  | split : ' ' | last }}">19:15</a>
                     (Germany)
                     {% else %}
-                    Late-morning session according to the <a href="https://chi2023.acm.org/program/">conference program</a>
+                    <!-- Late-morning session according to the <a href="https://chi2023.acm.org/program/">conference program</a> -->
+                    <a href="https://dateful.com/convert/germany?t=1110&d=2023-04-{{ course_dates[day] | split : ' ' | last }}">11:10</a> – 
+                    <a href="https://dateful.com/convert/germany?t=1235&d=2023-04-{{ course_dates[day]  | split : ' ' | last }}">12:35</a>
+                    (Germany)
                     {% endif %}
                 </td>        <!-- time    -->
                 <td>

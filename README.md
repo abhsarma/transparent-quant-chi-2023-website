@@ -2,7 +2,7 @@
 
 # CHI 2023 Course on Transparent Quantitative Statistics
 
-This repository contains the materials for website for the CHI 2023 course Transparent Quantitative Statistics
+This repository contains the materials for website for the CHI 2023 course Transparent Quantitative Statistics. Please view the website at [https://abhsarma.github.io/transparent-quant-chi-2023-website/](https://abhsarma.github.io/transparent-quant-chi-2023-website/)
 
 ## Instructions
 
