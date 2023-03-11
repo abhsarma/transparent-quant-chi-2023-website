@@ -84,7 +84,7 @@ The schedule is automatically generated from the lessons in `./_episodes` and `.
 
 [__Fumeng Yang__](http://www.fmyang.com/) is a postdoctoral fellow at Northwestern University. Her recent research focuses on uncertainty visualizations for the general public and user modeling through statistical and machine learning models. She served as a Student Volunteers chair for IEEE VIS and co-instructed the precedent series of the proposed course.
 
-[__Xiaoying Pu__](xiaoyingpu.github.io) is a postdoctoral researcher at the University of California, Merced. In her work, she takes a human-centered approach to help data workers communicate uncertainty and data analyses. She has organized a CHI 2021 SIG on visualization grammars and studied the open science practice of preregistration.
+[__Xiaoying Pu__](xiaoyingpu.github.io) takes a human-centered approach to help data workers communicate uncertainty and data analyses. She has organized a CHI 2021 SIG on visualization grammars and studied the open science practice of preregistration.
 
 [__Abhraneel Sarma__](http://abhsarma.github.io/) is a Ph.D. candidate at Northwestern University. His research interests include studying how people make decisions using visualizations, and how visualizations can be used for improving statistical analysis or reporting statistical results. In addition, he has studied how users implement certain aspects of Bayesian models and has developed tools for conducting multiverse analysis which is an approach for more transparent statistical research.
 <hr/>
